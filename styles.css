@@ -741,3 +741,46 @@ display: none;
 
 	}
 }
+
+
+.button-1-a {
+	background-color: #f73b56;
+
+	color: white;
+	padding: 5px 5px;
+	cursor: pointer;
+	margin-top: 9px;
+	margin-left: 50px;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+	
+  }
+
+
+
+
+@media screen and (max-width: 768px){.button-1-a {
+	background-color: #f73b56;
+
+	color: white;
+	padding: 5px 5px;
+	cursor: pointer;
+	margin-top: 9px;
+	margin-left: 15px;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+	
+  }}
+
+  
+  /* Darker background on mouse-over */
+  .button-1-a:hover {
+	background-color: white;
+	color: black;
+	font-weight: 500;
+
+	text-decoration: none;
+
+  }
