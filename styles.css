@@ -795,7 +795,7 @@ display: none;
 }
 @media screen and (max-width: 768px){
 .btn-default{
-	width: 324px; height: 40px;
+	width: auto; height: 40px;
 	 background-color: #f73b56;
 	  color: black;
 	  border: none;
