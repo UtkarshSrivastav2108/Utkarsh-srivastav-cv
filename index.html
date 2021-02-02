@@ -676,16 +676,19 @@
                     </div>
                 </div>
                 <div class="col-md-9  wow fadeInUp animated">
-                    <form class="contact-form" action="">
+                    <form class="contact-form" form action="mailto:usrivastav11@gmail.com" method="post">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                <input name="fullname" type="text" class="form-control" placeholder="Name" id="name" required>
+                                <input name="email" type="email" class="form-control" placeholder="E-mail" id="email" required>
+
+                                <input name="fullname" type="text" class="form-control" placeholder="subject" id="name" required>
+
                             </div>
                             <div class="col-md-6">
                                 <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
-                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
+                                <!-- <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button> -->
+                                <input style="width: 378px; height: 40px; background-color: #f73b56; color: white; border: none; margin-top: 4px;" type="submit" class="fpporm-control">
                             </div>
                         </div>
                     </form>
