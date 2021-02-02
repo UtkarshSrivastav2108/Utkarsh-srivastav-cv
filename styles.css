@@ -784,3 +784,25 @@ display: none;
 	text-decoration: none;
 
   }
+
+
+.btn-default{
+	width: 378px; height: 40px;
+	 background-color: #f73b56;
+	  color: black;
+	  border: none;
+	   margin-top: 4px;
+}
+@media screen and (max-width: 768px){
+.btn-default{
+	width: 324px; height: 40px;
+	 background-color: #f73b56;
+	  color: black;
+	  border: none;
+	   margin-top: 4px;
+}
+}
+
+::placeholder{
+	color: white;
+}
